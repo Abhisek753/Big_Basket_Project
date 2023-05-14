@@ -2,3 +2,90 @@
   margin: 0%;
   padding: 0%;
 }
+#navbar{
+    width: 80%;
+    height: 100%;
+    border: 2px solid green;
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 10% 40% 20% 10% 15%;
+    justify-content: space-between;
+}
+#navbar>div{
+    border: 2px solid red;
+    
+}
+.nav-logo>img{
+    width:100%;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon-div{
+    background-color:green;
+    height: 70%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+.search-icon{
+ font-size:30px;
+}
+.nav-search>input{
+   width: 75%;
+   height: 70%;
+  
+   
+}
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-content>div:first-child{
+    width: 15%;
+ 
+}
+.nav-content>div:nth-child(2){
+   justify-content: flex-start;
+}
+.nav-content>div{
+    width: 40%;
+
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.nav-cart>div{
+    width: 40%;
+}
+.nav-basket{
+    font-size:xx-large;
+}
+.nav-auth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-auth>button{
+   background-color:rgb(52, 52, 94);
+   color: wheat;
+   width: 45%;
+   padding: 5%;
+   border-radius: 5px 5px 5px 5px;
+
+}
+
+#catagory-bar{
+    width: 80%;
+    height: 50px;
+    border: 2px solid rgb(30, 145, 106);
+    margin: auto;
+}
