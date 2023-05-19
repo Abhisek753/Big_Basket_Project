@@ -37,15 +37,18 @@ const getData = async (category) => {
   if(category=="categoryimg"){
   console.log(data);
 
-    display(data);
+    display(data,category);
   }else if(category=="bankimg"){
     console.log(data)
+    display(data,category);
+
   }
 
 };
   
-let categoryimgdiv = document.querySelector("#categoryimgdiv");
-const display = (data) => {
+const display = (data,category) => {
+let categoryimgdiv = document.querySelector(`#${category}div`);
+
   data.forEach((el) => {
     let categorydiv = document.createElement("div");
     categorydiv.className = "catediv";

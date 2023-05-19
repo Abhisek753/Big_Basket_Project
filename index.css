@@ -153,10 +153,11 @@
   margin: auto;
   border: 2px solid black;
   display: flex;
+  flex-direction: column;
 }
 
 #categoryimgdiv {
-  display: flex;
+  display:grid;
   grid-template-columns: repeat(6, 1fr);
   width: 100%;
 
@@ -171,4 +172,18 @@
 }
 .catediv > img {
   width: 100%;
+}
+#home-heading{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 50px 0px 20px 0px;
+}
+#bankimgdiv{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+#bankimgdiv>div>img{
+  height:200px;
 }
