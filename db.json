@@ -1,19 +1,194 @@
 {
-  "posts": [
+  "data": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id":"1",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/1201414_1-fresho-onion.jpg",
+      "brand": "Fresho",
+      "name": "Onion",
+      "Kg": "5 Kg",
+      "strike": "120",
+      "mrp": 115,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June 9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id":"2",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/40162469_6-fresho-potato-new-crop.jpg",
+      "brand": "Fresho",
+      "name": "Patato",
+      "Kg": "2 kg",
+      "strike": "87.50",
+      "mrp": 70,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June  9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"3",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/10000298_10-fresho-banganapalli-mango.jpg",
+      "brand": "Fresho",
+      "name": "Banganapalli Mango",
+      "Kg": "1 kg",
+      "strike": "119.5",
+      "mrp": 91,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June  9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"4",
+      "discount": "Get 15% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/10000070_15-fresho-carrot-orange.jpg",
+      "brand": "Fresho",
+      "name": "Carrot-orange",
+      "Kg": "1 kg",
+      "strike": "81.25",
+      "mrp": 61,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June  9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"5",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/10000203_16-fresho-tomato-local.jpg",
+      "brand": "Fresho",
+      "name": "Tomato - Local",
+      "Kg": "1 kg",
+      "strike": "100",
+      "mrp": 70,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June  9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"6",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/1203678_1-fresho-tender-coconut-medium.jpg ",
+      "brand": "Fresho",
+      "name": "Tender Coconut - Medium",
+      "Kg": "4 X 1 Pc",
+      "strike": "215",
+      "mrp": 172,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June  9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"7",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/10000143_14-fresho-ladies-finger.jpg",
+      "brand": "Fresho",
+      "name": "Ladies Finger",
+      "Kg": "250g",
+      "strike": "10.94",
+      "mrp": 8.75,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June  9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"8",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/10000201_15-fresho-tomato-hybrid.jpg",
+      "brand": "Fresho",
+      "name": "Tomato - Hybrid",
+      "Kg": "500g",
+      "strike": "43.75",
+      "mrp": 35,
+      "category":"bestseller",
+      "dur": "Standard Delivery 22 June  9:00 AM  1:30 PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"9",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/10000031_21-fresho-banana-yelakki.jpg",
+      "brand": "Fresho",
+      "name": "Banana - Yelakki",
+      "Kg": "1kg",
+      "strike": "145",
+      "mrp": 116,
+      "category":"bestseller",
+      "dur": "Standard Delivery  22 June  9:00AM - 1:30PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"10",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+      "brand": "Fresho",
+      "name": "Cauliflower",
+      "Kg": "1 Pc  approx 400 g",
+      "strike": "25",
+      "mrp": 20,
+      "category":"bestseller",
+      "dur": "Standard Delivery  23 June  9:00AM - 1:30PM",
+      "ref": "https://www.bing.com/th?id=OIP.rIC2F2OmvKkH9lBrc4bA9gHaHo&w=96&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id":"11",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250423_01.png",
+      "category":"categoryimg"
+    },
+    {
+      "id":"12",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250423_02.png",
+      "category":"categoryimg"
+    },
+    {
+      "id":"13",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250423_03.png",
+      "category":"categoryimg"
+    },
+    {
+      "id":"14",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250423_04.png",
+      "category":"categoryimg"
+    },
+    {
+      "id":"15",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250423_05.png",
+      "category":"categoryimg"
+    },
+    {
+      "id":"16",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250423_06.png",
+      "category":"categoryimg"
+    },
+    {
+      "id":"17",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/f8f26f59-928c-4cd7-9c14-098f03d4866a/88c4628e-642d-48b9-b9d5-e79c77129836/t1_hp_aff_m_icici250_360_110523.jpg",
+      "category":"bankimg"
+    },
+    {
+      "id":"18",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/f8f26f59-928c-4cd7-9c14-098f03d4866a/88c4628e-642d-48b9-b9d5-e79c77129836/t1_hp_aff_m_onecard_360_110523.jpg",
+      "category":"bankimg"
+    },
+    {
+      "id":"19",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/f8f26f59-928c-4cd7-9c14-098f03d4866a/88c4628e-642d-48b9-b9d5-e79c77129836/t1_hp_aff_m_aubank_360_110523.jpg",
+      "category":"bankimg"
+    },
+    {
+      "id":"20",
+      "discount": "Get 20% OFF ",
+      "imgurl": "https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/f8f26f59-928c-4cd7-9c14-098f03d4866a/88c4628e-642d-48b9-b9d5-e79c77129836/all_hp_aff_m_hsbc_360_180523.jpg",
+      "category":"bankimg"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -1,91 +1,174 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
-#navbar{
-    width: 80%;
-    height: 100%;
-    border: 2px solid green;
-    margin: auto;
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 10% 40% 20% 10% 15%;
-    justify-content: space-between;
+#navbar {
+  width: 80%;
+  height: 100%;
+  border: 2px solid green;
+  margin: auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 10% 40% 20% 10% 15%;
+  justify-content: space-between;
 }
-#navbar>div{
-    border: 2px solid red;
-    
+#navbar > div {
+  border: 2px solid red;
 }
-.nav-logo>img{
-    width:100%;
+.nav-logo > img {
+  width: 100%;
 }
-.nav-search{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.search-icon-div{
-    background-color:green;
-    height: 70%;
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1%;
+.search-icon-div {
+  background-color: green;
+  height: 70%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1%;
 }
-.search-icon{
- font-size:30px;
+.search-icon {
+  font-size: 30px;
 }
-.nav-search>input{
-   width: 75%;
-   height: 70%;
-  
-   
+.nav-search > input {
+  width: 75%;
+  height: 70%;
 }
-.nav-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.nav-content>div:first-child{
-    width: 15%;
- 
+.nav-content > div:first-child {
+  width: 15%;
 }
-.nav-content>div:nth-child(2){
-   justify-content: flex-start;
+.nav-content > div:nth-child(2) {
+  justify-content: flex-start;
 }
-.nav-content>div{
-    width: 40%;
-
+.nav-content > div {
+  width: 40%;
 }
-.nav-cart{
-    display: flex;
-    align-items: center;
-    padding: 5px;
+.nav-cart {
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
-.nav-cart>div{
-    width: 40%;
+.nav-cart > div {
+  width: 40%;
 }
-.nav-basket{
-    font-size:xx-large;
+.nav-basket {
+  font-size: xx-large;
 }
-.nav-auth{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav-auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.nav-auth>button{
-   background-color:rgb(52, 52, 94);
-   color: wheat;
-   width: 45%;
-   padding: 5%;
-   border-radius: 5px 5px 5px 5px;
-
+.nav-auth > button {
+  background-color: rgb(52, 52, 94);
+  color: wheat;
+  width: 45%;
+  padding: 5%;
+  border-radius: 5px 5px 5px 5px;
 }
 
-#catagory-bar{
-    width: 80%;
-    height: 50px;
-    border: 2px solid rgb(30, 145, 106);
-    margin: auto;
+#catagory-bar {
+  width: 80%;
+  border: 2px solid rgb(30, 145, 106);
+  margin: auto;
+  display: flex;
+}
+
+.custom-select {
+  position: relative;
+  border: 2px solid black;
+  display: inline-block;
+  background-color: rgb(103, 186, 92);
+  height: 100%;
+  width: 25%;
+}
+
+.select-header {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 2px solid #2b2a2a14;
+  border: none;
+  width: 50vw;
+}
+
+.column {
+  display: inline-block;
+  width: 33.33%;
+  padding: 10px;
+  vertical-align: top;
+  border: 2px solid #2b2a2a14;
+  background-color: #fefcfc;
+}
+
+.column-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.item {
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 2%;
+}
+
+.item:hover {
+  background-color: #ddd;
+}
+
+#offers {
+  width: 10%;
+  border: 2px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#offers:hover {
+  background-color: rgb(83, 188, 31);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .column {
+    width: 50%;
+  }
+}
+#home-content {
+  width: 80%;
+  height: 700px;
+  margin: auto;
+  border: 2px solid black;
+  display: flex;
+}
+
+#categoryimgdiv {
+  display: flex;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+
+  gap: 1%;
+}
+.catediv {
+  display: flex;
+  width: 100%;
+
+  height: 50px;
+  border-radius: 5px;
+}
+.catediv > img {
+  width: 100%;
 }
