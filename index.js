@@ -27,15 +27,23 @@ setInterval(() => {
   carousel.append(crouseldiv);
   i++;
 }, 3000);
-const getData = async () => {
+const getData = async (category) => {
   let res = await fetch(
-    "http://localhost:3000/data?_sort&category=categoryimg"
+    `http://localhost:3000/data?_sort&category=${category}`
   );
   let data = await res.json();
+  // console.log(data);
+ 
+  if(category=="categoryimg"){
   console.log(data);
-  display(data);
-};
 
+    display(data);
+  }else if(category=="bankimg"){
+    console.log(data)
+  }
+
+};
+  
 let categoryimgdiv = document.querySelector("#categoryimgdiv");
 const display = (data) => {
   data.forEach((el) => {
@@ -48,4 +56,5 @@ const display = (data) => {
     categoryimgdiv.append(categorydiv);
   });
 };
-getData();
+getData("categoryimg");
+getData("bankimg")
